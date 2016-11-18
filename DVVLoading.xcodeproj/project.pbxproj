@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D957CDE61DC7366500CA4E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDE51DC7366500CA4E99 /* main.m */; };
+		D957CDE91DC7366500CA4E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDE81DC7366500CA4E99 /* AppDelegate.m */; };
+		D957CDEC1DC7366500CA4E99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDEB1DC7366500CA4E99 /* ViewController.m */; };
+		D957CDEF1DC7366500CA4E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D957CDED1DC7366500CA4E99 /* Main.storyboard */; };
+		D957CDF11DC7366500CA4E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957CDF01DC7366500CA4E99 /* Assets.xcassets */; };
+		D957CDF41DC7366500CA4E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D957CDF21DC7366500CA4E99 /* LaunchScreen.storyboard */; };
+		D957CDFF1DC7366500CA4E99 /* DVVLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDFE1DC7366500CA4E99 /* DVVLoadingTests.m */; };
+		D957CE0C1DC736FA00CA4E99 /* DVVLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CE0B1DC736FA00CA4E99 /* DVVLoading.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D957CDFB1DC7366500CA4E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D957CDD91DC7366500CA4E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D957CDE01DC7366500CA4E99;
+			remoteInfo = DVVLoading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D957CDE11DC7366500CA4E99 /* DVVLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D957CDE51DC7366500CA4E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D957CDE71DC7366500CA4E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D957CDE81DC7366500CA4E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D957CDEA1DC7366500CA4E99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D957CDEB1DC7366500CA4E99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D957CDEE1DC7366500CA4E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D957CDF01DC7366500CA4E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D957CDF31DC7366500CA4E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D957CDF51DC7366500CA4E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D957CDFA1DC7366500CA4E99 /* DVVLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVVLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D957CDFE1DC7366500CA4E99 /* DVVLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVLoadingTests.m; sourceTree = "<group>"; };
+		D957CE001DC7366500CA4E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D957CE0A1DC736FA00CA4E99 /* DVVLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVLoading.h; sourceTree = "<group>"; };
+		D957CE0B1DC736FA00CA4E99 /* DVVLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVLoading.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D957CDDE1DC7366500CA4E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D957CDF71DC7366500CA4E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D957CDD81DC7366500CA4E99 = {
+			isa = PBXGroup;
+			children = (
+				D957CDE31DC7366500CA4E99 /* DVVLoading */,
+				D957CDFD1DC7366500CA4E99 /* DVVLoadingTests */,
+				D957CDE21DC7366500CA4E99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D957CDE21DC7366500CA4E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDE11DC7366500CA4E99 /* DVVLoading.app */,
+				D957CDFA1DC7366500CA4E99 /* DVVLoadingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D957CDE31DC7366500CA4E99 /* DVVLoading */ = {
+			isa = PBXGroup;
+			children = (
+				D957CE091DC736E300CA4E99 /* DVVLoading */,
+				D957CDE71DC7366500CA4E99 /* AppDelegate.h */,
+				D957CDE81DC7366500CA4E99 /* AppDelegate.m */,
+				D957CDEA1DC7366500CA4E99 /* ViewController.h */,
+				D957CDEB1DC7366500CA4E99 /* ViewController.m */,
+				D957CDED1DC7366500CA4E99 /* Main.storyboard */,
+				D957CDF01DC7366500CA4E99 /* Assets.xcassets */,
+				D957CDF21DC7366500CA4E99 /* LaunchScreen.storyboard */,
+				D957CDF51DC7366500CA4E99 /* Info.plist */,
+				D957CDE41DC7366500CA4E99 /* Supporting Files */,
+			);
+			path = DVVLoading;
+			sourceTree = "<group>";
+		};
+		D957CDE41DC7366500CA4E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDE51DC7366500CA4E99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D957CDFD1DC7366500CA4E99 /* DVVLoadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDFE1DC7366500CA4E99 /* DVVLoadingTests.m */,
+				D957CE001DC7366500CA4E99 /* Info.plist */,
+			);
+			path = DVVLoadingTests;
+			sourceTree = "<group>";
+		};
+		D957CE091DC736E300CA4E99 /* DVVLoading */ = {
+			isa = PBXGroup;
+			children = (
+				D957CE0A1DC736FA00CA4E99 /* DVVLoading.h */,
+				D957CE0B1DC736FA00CA4E99 /* DVVLoading.m */,
+			);
+			path = DVVLoading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D957CDE01DC7366500CA4E99 /* DVVLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D957CE031DC7366500CA4E99 /* Build configuration list for PBXNativeTarget "DVVLoading" */;
+			buildPhases = (
+				D957CDDD1DC7366500CA4E99 /* Sources */,
+				D957CDDE1DC7366500CA4E99 /* Frameworks */,
+				D957CDDF1DC7366500CA4E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVVLoading;
+			productName = DVVLoading;
+			productReference = D957CDE11DC7366500CA4E99 /* DVVLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D957CDF91DC7366500CA4E99 /* DVVLoadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D957CE061DC7366500CA4E99 /* Build configuration list for PBXNativeTarget "DVVLoadingTests" */;
+			buildPhases = (
+				D957CDF61DC7366500CA4E99 /* Sources */,
+				D957CDF71DC7366500CA4E99 /* Frameworks */,
+				D957CDF81DC7366500CA4E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D957CDFC1DC7366500CA4E99 /* PBXTargetDependency */,
+			);
+			name = DVVLoadingTests;
+			productName = DVVLoadingTests;
+			productReference = D957CDFA1DC7366500CA4E99 /* DVVLoadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D957CDD91DC7366500CA4E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = devdawei;
+				TargetAttributes = {
+					D957CDE01DC7366500CA4E99 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D957CDF91DC7366500CA4E99 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D957CDE01DC7366500CA4E99;
+					};
+				};
+			};
+			buildConfigurationList = D957CDDC1DC7366500CA4E99 /* Build configuration list for PBXProject "DVVLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D957CDD81DC7366500CA4E99;
+			productRefGroup = D957CDE21DC7366500CA4E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D957CDE01DC7366500CA4E99 /* DVVLoading */,
+				D957CDF91DC7366500CA4E99 /* DVVLoadingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D957CDDF1DC7366500CA4E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CDF41DC7366500CA4E99 /* LaunchScreen.storyboard in Resources */,
+				D957CDF11DC7366500CA4E99 /* Assets.xcassets in Resources */,
+				D957CDEF1DC7366500CA4E99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D957CDF81DC7366500CA4E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D957CDDD1DC7366500CA4E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CDEC1DC7366500CA4E99 /* ViewController.m in Sources */,
+				D957CE0C1DC736FA00CA4E99 /* DVVLoading.m in Sources */,
+				D957CDE91DC7366500CA4E99 /* AppDelegate.m in Sources */,
+				D957CDE61DC7366500CA4E99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D957CDF61DC7366500CA4E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CDFF1DC7366500CA4E99 /* DVVLoadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D957CDFC1DC7366500CA4E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D957CDE01DC7366500CA4E99 /* DVVLoading */;
+			targetProxy = D957CDFB1DC7366500CA4E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D957CDED1DC7366500CA4E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D957CDEE1DC7366500CA4E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D957CDF21DC7366500CA4E99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D957CDF31DC7366500CA4E99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D957CE011DC7366500CA4E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D957CE021DC7366500CA4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D957CE041DC7366500CA4E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVVLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D957CE051DC7366500CA4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVVLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D957CE071DC7366500CA4E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVVLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVVLoading.app/DVVLoading";
+			};
+			name = Debug;
+		};
+		D957CE081DC7366500CA4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVVLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVVLoading.app/DVVLoading";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D957CDDC1DC7366500CA4E99 /* Build configuration list for PBXProject "DVVLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957CE011DC7366500CA4E99 /* Debug */,
+				D957CE021DC7366500CA4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D957CE031DC7366500CA4E99 /* Build configuration list for PBXNativeTarget "DVVLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957CE041DC7366500CA4E99 /* Debug */,
+				D957CE051DC7366500CA4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D957CE061DC7366500CA4E99 /* Build configuration list for PBXNativeTarget "DVVLoadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957CE071DC7366500CA4E99 /* Debug */,
+				D957CE081DC7366500CA4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D957CDD91DC7366500CA4E99 /* Project object */;
+}
